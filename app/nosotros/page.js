@@ -1,7 +1,13 @@
 import React from "react";
 
-const nosotros = () => {
-  return <div>nosotros</div>;
+const Nosotros = () => {
+  return (
+    <>
+      <main className="container mx-auto">
+        <h1>¡Hola, somos The Workerrs!</h1>
+      </main>
+    </>
+  );
 };
 
-export default nosotros;
+export default Nosotros;

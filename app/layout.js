@@ -1,11 +1,15 @@
+import Footer from "./components/ui/Footer";
+import Header from "./components/ui/Header";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
-  <html lang="en"></html>;
-
   return (
-    <html>
-      <body>{children}</body>
+    <html lang="es">
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

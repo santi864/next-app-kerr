@@ -10,3 +10,5 @@ export const Boton = ({ children, className = "", ...args }) => {
     </button>
   );
 };
+
+export default Boton;
